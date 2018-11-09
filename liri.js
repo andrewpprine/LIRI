@@ -3,8 +3,8 @@ var request = require("request");
 var keys = require("./keys");
 var fs = require("fs");
 
-// var client= new Twitter(keys.twitter);
-var twitter = require("twitter");
+// Twitter
+var client = new Twitter(keys.twitter);
 
 // Spotify
 var Spotify = require("node-spotify-api");
